@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:tiktok_yt/view/screens/add_video.dart';
 import 'package:tiktok_yt/view/screens/display_screen.dart';
 import 'package:tiktok_yt/view/screens/profile_screen.dart';
-import 'package:tiktok_yt/view/screens/search_screen.dart';
+
 
 
 // getRandomColor() => Colors.primaries[Random().nextInt(Colors.primaries.length)];
@@ -24,7 +24,7 @@ const borderColor = Colors.grey;
 
 var pageindex = [
 DisplayVideo_Screen(),
- SearchScreen(),
+
  addVideoScreen(),
   Text('Coming Soon In New Updates!'),
   ProfileScreen(uid: FirebaseAuth.instance.currentUser!.uid,),
